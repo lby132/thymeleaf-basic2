@@ -21,6 +21,7 @@ public class Test10 {
                 }
             }
 
+
             if (!changed) break; // 자리 바꿈이 없으면 반복문을 벗어난다.
 
             for (int k = 0; k < numArr.length; k++)
