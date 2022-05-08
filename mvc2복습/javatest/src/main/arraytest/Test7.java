@@ -15,6 +15,7 @@ public class Test7 {
             int tmp = numArr[0];
             numArr[0] = numArr[n];
             numArr[n] = tmp;
+            System.out.println(numArr[9] + " = arrr");
         }
 
         for (int i = 0; i < numArr.length; i++) {
