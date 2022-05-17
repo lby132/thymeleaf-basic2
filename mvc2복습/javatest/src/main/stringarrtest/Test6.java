@@ -1,9 +1,9 @@
-package main.stringtest;
+package main.stringarrtest;
 
 public class Test6 {
     public static void main(String[] args) {
         int[][] score = {
-                {100, 100, 100}
+                  {100, 100, 100}
                 , {20, 20, 20}
                 , {30, 30, 30}
                 , {40, 40, 40}
@@ -17,11 +17,11 @@ public class Test6 {
         System.out.println("==============================");
 
         for (int i = 0; i < score.length; i++) {
-            int sum = 0; // 개인별 총점
+            int   sum = 0; // 개인별 총점
             float avg = 0.0f; // 개인별 평균
 
-            korTotal += score[i][0];
-            engTotal += score[i][1];
+            korTotal  += score[i][0];
+            engTotal  += score[i][1];
             mathTotal += score[i][2];
             System.out.printf("%3d", i + 1);
 

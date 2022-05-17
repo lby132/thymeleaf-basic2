@@ -1,4 +1,4 @@
-package main.stringtest;
+package main.stringarrtest;
 
 public class Test5 {
 
