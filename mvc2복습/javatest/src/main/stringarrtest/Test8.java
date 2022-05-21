@@ -17,6 +17,7 @@ public class Test8 {
                 System.out.println("bingo = " + bingo[i][j]);
             }
         }
+
         //배열에 저장된 값을 뒤섞는다.
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
